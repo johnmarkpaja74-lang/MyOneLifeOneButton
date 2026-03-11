@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Temple_Runner",
-    "slug": "Temple_Runner",
+    "name": "Bakadongs",
+    "slug": "Bakadongs",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "templerunner",
+    "scheme": "bakadongs",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -20,7 +20,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.arakashi.Temple_Runner"
+      "package": "com.arakashi.Bakadongs"
     },
     "web": {
       "output": "static",

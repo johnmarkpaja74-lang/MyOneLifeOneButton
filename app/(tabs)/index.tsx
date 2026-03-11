@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Audio } from 'expo-av';
 import * as Haptics from 'expo-haptics';
 // ============================================
-// SIGNAL DRIFT - A One-Button Rhythm Game
+// BAKADONGS - A One-Button Rhythm Game
 // ============================================
 // Concept: Tap when the orbiting signal aligns with the target zone
 // One miss ends the run! (rogue-like difficulty)
@@ -41,7 +41,7 @@ const DEBUFF_CHANCE = 0.3;
 const DEBUFF_SPEED = 0.6;
 const DEBUFF_SHRINK = 0.25;
 const MAX_MULTIPLIER = 4;
-const BEST_KEY = 'signal-drift-best';
+const BEST_KEY = 'bakadongs-best';
 const MULTIPLIER_ZONE_WIDTH = 0.45;
 const MULTIPLIER_CHANCE = 0.5;
 const DOT_RADIUS = 9;
@@ -547,7 +547,7 @@ export default function HomeScreen() {
     <Pressable style={styles.screen} onPressIn={handlePress}>
       {/* Header: Title and stats */}
       <View style={styles.header}>
-        <Text style={styles.title}>Signal Drift</Text>
+        <Text style={styles.title}>Bakadongs</Text>
         <View style={styles.stats}>
           <Text style={styles.statText}>Score: {score}</Text>
           <Text style={styles.statText}>Best: {best}</Text>
